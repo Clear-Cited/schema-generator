@@ -1,0 +1,23 @@
+```json
+{
+  "title": "schema-generator",
+  "description": "Generates and validates schema.org structured data for pages that need to be legible to AI answer engines. Standard library only. Part of the toolchain behind the Clear Cited AI Visibility Index.",
+  "license": "MIT",
+  "upload_type": "software",
+  "publisher": "Clear Cited",
+  "creators": [
+    {
+      "name": "Adams, Logan",
+      "affiliation": "Clear Cited",
+      "orcid": "0009-0009-1235-9479"
+    }
+  ],
+  "keywords": [
+    "schema.org", "structured data", "answer engine optimization",
+    "generative engine optimization", "AI search", "JSON-LD"
+  ],
+  "related_identifiers": [
+    { "identifier": "10.5281/zenodo.21612952", "relation": "isSupplementTo", "resource_type": "dataset" },
+    { "identifier": "https://clearcited.com/methodology/", "relation": "isDocumentedBy", "scheme": "url" }
+  ]
+}
