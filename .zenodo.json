@@ -1,4 +1,3 @@
-```json
 {
   "title": "schema-generator",
   "description": "Generates and validates schema.org structured data for pages that need to be legible to AI answer engines. Standard library only. Part of the toolchain behind the Clear Cited AI Visibility Index.",
