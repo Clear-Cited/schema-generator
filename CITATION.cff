@@ -6,6 +6,8 @@ abstract: >-
   legible to AI answer engines. Standard library only. Part of the toolchain
   behind the Clear Cited AI Visibility Index.
 type: software
+version: "0.1.0"
+date-released: "2026-08-02"
 authors:
   - family-names: "Adams"
     given-names: "Logan"
@@ -14,8 +16,6 @@ authors:
 repository-code: "https://github.com/Clear-Cited/schema-generator"
 url: "https://clearcited.com"
 license: MIT
-version: "0.1.0"
-date-released: "2026-07-27"
 keywords:
   - schema.org
   - structured data
@@ -25,8 +25,14 @@ keywords:
   - JSON-LD
 identifiers:
   - type: swh
-    value: "swh:1:snp:REPLACE_WITH_SNAPSHOT_SWHID"
-    description: "Software Heritage snapshot of the repository"
+    value: "swh:1:dir:d2bde989187178bf780f2379ae0bed0fdb9bc2da"
+    description: "Software Heritage directory for the schema-generator repository"
+  - type: swh
+    value: "swh:1:snp:4fd5b7f78ae18a1b1a5ad8f22cab60a605ce5a89"
+    description: "Software Heritage snapshot"
+  - type: swh
+    value: "swh:1:rev:05a2c9584fc46af27a27c4cb56eb4a4ab0f49e1b"
+    description: "Software Heritage revision"
 references:
   - type: data
     title: "Clear Cited AI Visibility Index"
@@ -35,8 +41,3 @@ references:
         given-names: "Logan"
         orcid: "https://orcid.org/0009-0009-1235-9479"
     doi: "10.5281/zenodo.21612952"
-```
-swh:1:dir:d2bde989187178bf780f2379ae0bed0fdb9bc2da;
-origin=https://github.com/Clear-Cited/schema-generator;
-visit=swh:1:snp:4fd5b7f78ae18a1b1a5ad8f22cab60a605ce5a89;
-anchor=swh:1:rev:05a2c9584fc46af27a27c4cb56eb4a4ab0f49e1b
