@@ -49,6 +49,19 @@ When buyers ask ChatGPT, Perplexity, Claude, Gemini, or Google AI for the best t
 
 → See the **[AI Visibility Index](https://clearcited.com/ai-visibility-index/)** — our public leaderboards of which products AI engines recommend.
 
+## Related tools
+
+Part of a set of five, all MIT-licensed and each archived on Zenodo with a DOI.
+Find what is missing, fix it, then measure whether it moved.
+
+| Tool | What it does |
+|---|---|
+| [`aeo-audit-lite`](https://github.com/Clear-Cited/aeo-audit-lite) | measure your share of model against competitors, with a confidence interval |
+| [`citation-ready`](https://github.com/Clear-Cited/citation-ready) | check whether a page carries the signals cited pages tend to carry |
+| [`schema-for-ai`](https://github.com/Clear-Cited/schema-for-ai) | JSON-LD templates tuned for AI extraction, plus a validator |
+| **schema-generator** | build Organization / Product / FAQPage JSON-LD in your browser — *you are here* |
+| [`llms-txt-generator`](https://github.com/Clear-Cited/llms-txt-generator) | generate an llms.txt for your site, in your browser |
+
 ## Cite this
 
 Every release is archived on Zenodo with a DOI, and the repo carries a
