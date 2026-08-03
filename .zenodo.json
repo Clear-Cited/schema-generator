@@ -1,8 +1,9 @@
 {
-  "title": "schema-generator",
-  "description": "Generates and validates schema.org structured data for pages that need to be legible to AI answer engines. Standard library only. Part of the toolchain behind the Clear Cited AI Visibility Index.",
-  "license": "MIT",
+  "title": "schema-generator: build Organization, Product and FAQPage JSON-LD in the browser",
   "upload_type": "software",
+  "description": "<p>Builds valid <code>schema.org</code> JSON-LD for the three types that matter most to SaaS and developer-tool sites: Organization, Product/SoftwareApplication and FAQPage. Light validation, then a ready-to-paste <code>&lt;script&gt;</code> block.</p><p>Runs entirely in the browser. A single static page — <code>index.html</code> plus <code>app.js</code> — with no build step, no dependencies and no server. Nothing you type is sent anywhere.</p><p>Structured data is published here for machine-readability and general good practice. We make no claim that it increases the likelihood of citation by an AI answer engine — the one controlled study on that question found a null result once ranking position was controlled for.</p>",
+  "license": "MIT",
+  "access_right": "open",
   "publisher": "Clear Cited",
   "creators": [
     {
@@ -12,11 +13,33 @@
     }
   ],
   "keywords": [
-    "schema.org", "structured data", "answer engine optimization",
-    "generative engine optimization", "AI search", "JSON-LD"
+    "schema.org",
+    "structured data",
+    "JSON-LD",
+    "answer engine optimization",
+    "generative engine optimization",
+    "AI search"
   ],
   "related_identifiers": [
-    { "identifier": "10.5281/zenodo.21612952", "relation": "isSupplementTo", "resource_type": "dataset" },
-    { "identifier": "https://clearcited.com/methodology/", "relation": "isDocumentedBy", "scheme": "url" }
+    {
+      "identifier": "https://github.com/Clear-Cited/schema-generator",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://clearcited.com/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.21612952",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://clearcited.com/methodology/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
   ]
 }
